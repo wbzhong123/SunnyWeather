@@ -13,6 +13,17 @@ material = "1.10.0"
 activity = "1.8.0"
 constraintlayout = "2.1.4"
 
+recyclerviewVersion = "1.0.0"
+lifecycleVersion = "2.2.0"
+livedataVersion = "2.2.0"
+materialVersion = "1.1.0"
+swiperefreshlayoutVersion = "1.0.0"
+retroficVersion ="2.6.1"
+
+converterGsonVersion = "2.6.1"
+cortouinesCoreVersion = "1.3.0"
+cortouinesAndroidVersion = "1.1.1"
+cardview = "1.0.0"
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
@@ -32,6 +43,19 @@ androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
 androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+
+# ===================================first code start====================================
+androidx-recyclerview = {group = "androidx.recyclerview", name = "recyclerview", version.ref = "recyclerviewVersion"}
+androidx-lifecycle-extensions = {group = "androidx.lifecycle", name = "lifecycle-extensions", version.ref = "lifecycleVersion"}
+androidx-lifecycle-livedata = {group = "androidx.lifecycle", name = "lifecycle-livedata-ktx",version.ref = "livedataVersion"}
+android-material = {group = "com.google.android.material", name = "material", version.ref = "materialVersion"}
+swiperefreshlayout = {group = "androidx.swiperefreshlayout", name = "swiperefreshlayout", version.ref = "swiperefreshlayoutVersion"}
+retrofits = {group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retroficVersion"}
+retrofit2-converter-gson = {group = "com.squareup.retrofit2", name = "converter-gson", version.ref = "converterGsonVersion"}
+coroutines-core = {group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "cortouinesCoreVersion"}
+cortouines-android ={group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android",version.ref = "cortouinesAndroidVersion" }
+androidx-cardview = { group = "androidx.cardview", name = "cardview", version.ref = "cardview" }
+#===================================first code end=====================================
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
